@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="game-1.css">
+        <title>Snake 0X32 Game</title>
+    </head>
+    <body>
+        <div id="gamecontainer">
+            <canvas id="gameBoard" width="780" height="780"></canvas>
+            <div id="scoreText">0</div>
+            <button id="resetBtn">Reset</button>
+        </div>
+        
+        <!-- Link to your JavaScript file -->
+        <script src="java.js"></script> <!-- Make sure 'game.js' is the correct filename -->
+    </body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    background-image: url('back ground.png');
+  }
+  .big {
+    background-color: rgb(86, 159, 255);
+    font-family: Impact;
+    font-size: 40;
+    color: #ffffff;
+    width: 600px;
+    height: 70px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  transition: background-color 0.3s ease , font-family 0.3s ease;
+  transition: color 0.3s ease , font-size 0.ms ease;
+ 
+}
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center; /* Vertically center the buttons */
+    align-items: center;  
+    height: 100%;     
+           /* Full height of the page */
+}
+.big:hover{
+    background-color: #000000;
+  font-family: 'YouMurderer BB', Courier, monospace;
+  font-size: 50px;
+  color: #a10000;
+}
+.buy{
+  background-color: rgb(86, 159, 255);
+    font-family: Impact;
+    font-size: 40;
+    color: #ffffff;
+    width: 600px;
+    height: 70px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  transition: background-color 0.3s ease , font-family 0.3s ease;
+  transition: color 0.3s ease , font-size 0.ms ease;
+ 
+}
+
+.buy:hover{
+  background-color: #ffffff;
+font-family: 'Ravie', Courier, monospace;
+font-size: 40px;
+color: #00709c;
+}
+.horror{
+  background-color: rgb(131, 131, 131);
+  border: none;
+  font-family: Impact;
+  font-size: 40;
+  color: #ffffff;
+  width: 600px;
+  height: 70px;
+cursor: pointer;
+padding: 10px 20px;
+margin: 10px;
+transition: background-color 0.3s ease , font-family 0.3s ease;
+transition: color 0.3s ease , font-size 0.ms ease;
+}
+.horror:hover{
+  background-color: #000000;
+  font-family: 'YouMurderer BB', Courier, monospace;
+  font-size: 70px;
+  color: #a10000;
+
+}
